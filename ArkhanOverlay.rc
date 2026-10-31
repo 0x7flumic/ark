@@ -1,0 +1,5 @@
+#include <windows.h>
+
+#define IDR_ARKHAN_BACKGROUND 201
+
+IDR_ARKHAN_BACKGROUND RCDATA "Utils\\6eb96954-5ceb-4244-8e3d-4b764e492689.png"

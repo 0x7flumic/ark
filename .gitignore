@@ -1,0 +1,9 @@
+output/
+Directory.Build.local.props
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.exp
+*.lib

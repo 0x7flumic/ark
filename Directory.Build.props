@@ -1,0 +1,8 @@
+<Project>
+  <Import Project="Directory.Build.local.props" Condition="Exists('Directory.Build.local.props')" />
+  <PropertyGroup>
+    <BepInExPath Condition="'$(BepInExPath)' == '' and '$(BEPINEX_PATH)' != ''">$(BEPINEX_PATH)</BepInExPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)output\bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+</Project>

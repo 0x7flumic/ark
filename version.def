@@ -1,0 +1,19 @@
+LIBRARY VERSION
+EXPORTS
+    GetFileVersionInfoA=ArkhanGetFileVersionInfoA @1
+    GetFileVersionInfoByHandle=ArkhanGetFileVersionInfoByHandle @2
+    GetFileVersionInfoExA=ArkhanGetFileVersionInfoExA @3
+    GetFileVersionInfoExW=ArkhanGetFileVersionInfoExW @4
+    GetFileVersionInfoSizeA=ArkhanGetFileVersionInfoSizeA @5
+    GetFileVersionInfoSizeExA=ArkhanGetFileVersionInfoSizeExA @6
+    GetFileVersionInfoSizeExW=ArkhanGetFileVersionInfoSizeExW @7
+    GetFileVersionInfoSizeW=ArkhanGetFileVersionInfoSizeW @8
+    GetFileVersionInfoW=ArkhanGetFileVersionInfoW @9
+    VerFindFileA=ArkhanVerFindFileA @10
+    VerFindFileW=ArkhanVerFindFileW @11
+    VerInstallFileA=ArkhanVerInstallFileA @12
+    VerInstallFileW=ArkhanVerInstallFileW @13
+    VerLanguageNameA=ArkhanVerLanguageNameA @14
+    VerLanguageNameW=ArkhanVerLanguageNameW @15
+    VerQueryValueA=ArkhanVerQueryValueA @16
+    VerQueryValueW=ArkhanVerQueryValueW @17
